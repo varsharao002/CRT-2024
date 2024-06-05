@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int length,breadth,area,perimeter;
+    scanf("%d",&length);
+    scanf("%d",&breadth);
+    scanf("%d",&area);
+    scanf("%d",&perimeter);
+    perimeter=2*(length+breadth);
+    area=length*breadth;
+    printf("%d\n",perimeter);
+    printf("%d\n",area);
+    return 0;
+}
