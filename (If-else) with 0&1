@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    if(0)
+    {
+        printf("Java");
+    }
+    else
+    {
+        printf("Python");
+    }
+return 0;
+}
