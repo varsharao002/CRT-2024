@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a=2;
+    switch(a)
+    {
+        case 1:
+        printf("Java");
+        break;
+        case 2:
+        printf("Python");
+        break;
+        case 3:
+        printf("c");
+        break;
+        default:
+        printf("invalid");
+    }
+    return 0;
+}
+
