@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a=7,n;
+    scanf("%d",&n);
+    printf("%d",a);
+    for(int i=1;i<n;i++)
+    {
+        if(i%2==1)
+        {
+            a=a-2;
+        }
+        else{
+            a=a+3;
+        }
+        printf(" %d",a);
+    }
+    return 0;
+}
