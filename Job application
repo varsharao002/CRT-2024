@@ -12,7 +12,7 @@ int main() {
         printf("enter branch");
         char branch[10];
         scanf("%s",branch);
-        printf("enter marital status 1 for single");
+        printf("enter marital status 1 for single 2 for married");
         int a;
         scanf("%d",&a);
         if(a==1)
