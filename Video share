@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int u;
+scanf("%d", &u);
+if (u < 30 || u > 100) {
+    printf("Invalid Input\n");
+} else if (u >= 30 && u <= 50) {
+    printf("Average \n");
+} else if (u >= 51 && u <= 60) {
+    printf("Good \n");
+} else if (u >= 61 && u <= 80) {
+    printf("Excellent \n");
+} else if (u >= 81 && u <= 100) {
+    printf("Outstanding \n");
+}
+    return 0;
+}
